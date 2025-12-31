@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 30px 20px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin: 15px 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.product-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.product-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.product-info h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.product-info ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.product-info li {
+  margin: 8px 0;
+  font-size: 1.05rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.btn-whatsapp,
+.btn-call {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.btn-whatsapp {
+  background: #25D366;
+}
+
+.btn-whatsapp:hover {
+  background: #1da851;
+}
+
+.btn-call {
+  background: #FF9800;
+}
+
+.btn-call:hover {
+  background: #e68a00;
+}
+
+.contact-section {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.contact-details {
+  background: rgba(0,0,0,0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-details p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.contact-details a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.website-link {
+  text-align: center;
+  padding: 30px;
+}
+
+.website-link p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.website-link-btn {
+  display: inline-block;
+  background: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.website-link-btn:hover {
+  background: #2E7D32;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: rgba(0,0,0,0.3);
+  border-radius: 12px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
